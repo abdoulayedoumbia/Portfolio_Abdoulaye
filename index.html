@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Portfolio d'Abdoulaye Doumbia - Gestion, comptabilité, automatisation et développement Web.">
+
+    <title>Abdoulaye Doumbia | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ==================================================
+ HEADER
+================================================== -->
+
+<header class="header">
+
+    <nav class="navbar">
+
+        <a href="#accueil" class="logo">AD</a>
+
+        <button
+            class="menu-mobile"
+            id="menu-mobile"
+            aria-label="Ouvrir le menu"
+        >
+            ☰
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+
+            <li>
+                <a href="#accueil">Accueil</a>
+            </li>
+
+            <li>
+                <a href="#projets">Projets</a>
+            </li>
+
+            <li>
+                <a href="#competences">Compétences</a>
+            </li>
+
+            <li>
+                <a href="#apropos">À propos</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+            <li>
+                <button
+                    id="theme-toggle"
+                    class="theme-toggle"
+                    aria-label="Changer le thème"
+                >
+                    ◐
+                </button>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+<!-- ==================================================
+ HERO
+================================================== -->
+
+<section id="accueil" class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <span class="eyebrow">
+                PORTFOLIO
+            </span>
+
+            <h1>
+                Je transforme les besoins
+                de gestion en
+                <span>solutions numériques.</span>
+            </h1>
+
+            <p class="hero-description">
+                Je suis Abdoulaye Doumbia,
+                passionné par la gestion comptable,
+                l'automatisation et le développement
+                d'outils numériques.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#projets"
+                    class="btn btn-primary"
+                >
+                    Découvrir mes projets
+                </a>
+
+                <a
+                    href="#contact"
+                    class="btn btn-secondary"
+                >
+                    Me contacter
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="profile-circle">
+
+                <img
+                    src="images/profil.jpg"
+                    alt="Photo de profil"
+                >
+
+            </div>
+
+            <h2>
+                Abdoulaye Doumbia
+            </h2>
+
+            <p>
+                Gestion • Comptabilité • Digitalisation
+            </p>
+
+            <div class="hero-tags">
+
+                <span>Excel</span>
+                <span>VBA</span>
+                <span>Access</span>
+                <span>Web</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================================================
+ STATISTIQUES
+================================================== -->
+
+<section class="stats-section">
+
+    <div class="stats-grid">
+
+        <div class="stat-card">
+            <strong>10+</strong>
+            <span>Projets réalisés</span>
+        </div>
+
+        <div class="stat-card">
+            <strong>06+</strong>
+            <span>Technologies</span>
+        </div>
+
+        <div class="stat-card">
+            <strong>03</strong>
+            <span>Domaines</span>
+        </div>
+
+        <div class="stat-card">
+            <strong>100%</strong>
+            <span>Passion</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================================================
+ PROJETS
+================================================== -->
+
+<section id="projets" class="section">
+
+    <div class="section-heading">
+
+        <span>
+            MES RÉALISATIONS
+        </span>
+
+        <h2>
+            Projets sélectionnés
+        </h2>
+
+        <p>
+            Découvrez quelques outils et solutions
+            que j'ai développés dans le cadre de
+            mon apprentissage et de projets concrets.
+        </p>
+
+    </div>
+
+
+    <!-- FILTRES -->
+
+    <div class="filters">
+
+        <button
+            class="filter active"
+            data-filter="tous"
+        >
+            Tous
+        </button>
+
+        <button
+            class="filter"
+            data-filter="excel"
+        >
+            Excel
+        </button>
+
+        <button
+            class="filter"
+            data-filter="vba"
+        >
+            VBA
+        </button>
+
+        <button
+            class="filter"
+            data-filter="access"
+        >
+            Access
+        </button>
+
+        <button
+            class="filter"
+            data-filter="web"
+        >
+            Web
+        </button>
+
+    </div>
+
+
+    <!-- ==================================================
+    CARTES DES PROJETS
+    ================================================== -->
+
+    <div
+        class="projects-grid"
+        id="projects-grid"
+    >
+
+
+        <!-- 1. CAISSE -->
+
+        <article
+            class="project-card reveal"
+            data-technologies="excel vba"
+        >
+
+            <div class="project-image">
+
+                <img
+                    src="images/projets/caise_enregistreuse.png"
+                    alt="Caisse enregistreuse"
+                >
+
+                <span class="project-category">
+                    Excel • VBA
+                </span>
+
+            </div>
+
+            <div class="project-content">
+
+                <h3>
+                    Caisse enregistreuse
+                </h3>
+
+                <p>
+                    Outil automatisé permettant de gérer
+                    les ventes, les reçus, le stock et
+                    l'archivage.
+                </p>
+
+                <button
+                    class="project-link"
+                    data-projet="caisse"
+                >
+                    Voir le projet
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- 2. STOCK PHARMACIE -->
+
+        <article
+            class="project-card reveal"
+            data-technologies="excel vba"
+        >
+
+            <div class="project-image">
+
+                <img
+                    src="images/projets/stock_pharmacie.png"
+                    alt="Gestion de stock pharmacie"
+                >
+
+                <span class="project-category">
+                    Excel • VBA
+                </span>
+
+            </div>
+
+            <div class="project-content">
+
+                <h3>
+                    Gestion de stock pharmacie
+                </h3>
+
+                <p>
+                    Solution de suivi des stocks,
+                    mouvements, lots et dates
+                    d'expiration.
+                </p>
+
+                <button
+                    class="project-link"
+                    data-projet="stock"
+                >
+                    Voir le projet
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- 3. CRÉANCES -->
+
+        <article
+            class="project-card reveal"
+            data-technologies="excel vba"
+        >
+
+            <div class="project-image">
+
+                <img
+                    src="images/projets/dash_creances.png"
+                    alt="Recouvrement de créances"
+                >
+
+                <span class="project-category">
+                    Excel • VBA
+                </span>
+
+            </div>
+
+            <div class="project-content">
+
+                <h3>
+                    Recouvrement de créances
+                </h3>
+
+                <p>
+                    Outil de suivi des clients,
+                    créances, paiements et échéances.
+                </p>
+
+                <button
+                    class="project-link"
+                    data-projet="creances"
+                >
+                    Voir le projet
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- 4. EMPLOYÉS -->
+
+        <article
+            class="project-card reveal"
+            data-technologies="access"
+        >
+
+            <div class="project-image">
+
+                <img
+                    src="images/projets/employer.png"
+                    alt="Gestion des employés"
+                >
+
+                <span class="project-category">
+                    Access
+                </span>
+
+            </div>
+
+            <div class="project-content">
+
+                <h3>
+                    Gestion des employés
+                </h3>
+
+                <p>
+                    Solution de gestion administrative
+                    des employés, contrats et
+                    informations professionnelles.
+                </p>
+
+                <button
+                    class="project-link"
+                    data-projet="employer"
+                >
+                    Voir le projet
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- ==================================================
+        5. CREADette PRO
+        ================================================== -->
+
+        <article
+            class="project-card reveal"
+            data-technologies="excel"
+        >
+
+            <div class="project-image">
+
+                <img
+                    src="images/projets/CreaDette_Pro.png"
+                    alt="CreaDette Pro"
+                >
+
+                <span class="project-category">
+                    Excel
+                </span>
+
+            </div>
+
+            <div class="project-content">
+
+                <h3>
+                    CreaDette Pro
+                </h3>
+
+                <p>
+                    Outil simple pour suivre les créances
+                    et dettes depuis un smartphone ou
+                    un ordinateur, sans VBA.
+                </p>
+
+                <button
+                    class="project-link"
+                    data-projet="creadette"
+                >
+                    Voir le projet
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- ==================================================
+        6. CONSULTATEUR PRIX
+        ================================================== -->
+
+        <article
+            class="project-card reveal"
+            data-technologies="excel"
+        >
+
+            <div class="project-image">
+
+                <img
+                    src="images/projets/consulateur_prix.png"
+                    alt="Consultateur de prix"
+                >
+
+                <span class="project-category">
+                    Excel
+                </span>
+
+            </div>
+
+            <div class="project-content">
+
+                <h3>
+                    Consultateur de prix
+                </h3>
+
+                <p>
+                    Mini-outil Excel permettant de
+                    retrouver rapidement les produits
+                    et leurs prix sur smartphone.
+                </p>
+
+                <button
+                    class="project-link"
+                    data-projet="consultateur"
+                >
+                    Voir le projet
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- ==================================================
+        7. SITE WEB IMMOBILIER
+        ================================================== -->
+
+        <article
+            class="project-card reveal"
+            data-technologies="web"
+        >
+
+            <div class="project-image">
+
+                <img
+                    src="images/projets/site_web_immobilier.png"
+                    alt="Site web immobilier"
+                >
+
+                <span class="project-category">
+                    Web
+                </span>
+
+            </div>
+
+            <div class="project-content">
+
+                <h3>
+                    Site web immobilier
+                </h3>
+
+                <p>
+                    Site web complet pour agences
+                    immobilières, courtiers et
+                    professionnels de l'immobilier.
+                </p>
+
+                <button
+                    class="project-link"
+                    data-projet="immobilier"
+                >
+                    Voir le projet
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- ==================================================
+        8. SITE WEB PRESTATION
+        ================================================== -->
+
+        <article
+            class="project-card reveal"
+            data-technologies="web"
+        >
+
+            <div class="project-image">
+
+                <img
+                    src="images/projets/site_web_prestation_service.png"
+                    alt="Site web prestation de service"
+                >
+
+                <span class="project-category">
+                    Web
+                </span>
+
+            </div>
+
+            <div class="project-content">
+
+                <h3>
+                    Site web prestation de service
+                </h3>
+
+                <p>
+                    Site web professionnel destiné à
+                    présenter les services et développer
+                    la présence numérique d'une entreprise.
+                </p>
+
+                <button
+                    class="project-link"
+                    data-projet="prestation"
+                >
+                    Voir le projet
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- ==================================================
+        9. FACTURATIONS
+        ================================================== -->
+
+        <article
+            class="project-card reveal"
+            data-technologies="excel vba"
+        >
+
+            <div class="project-image">
+
+                <img
+                    src="images/projets/facturations.png"
+                    alt="Facturations Excel"
+                >
+
+                <span class="project-category">
+                    Excel • VBA
+                </span>
+
+            </div>
+
+            <div class="project-content">
+
+                <h3>
+                    Facturations
+                </h3>
+
+                <p>
+                    Outil Excel permettant de générer
+                    automatiquement des factures.
+                </p>
+
+                <button
+                    class="project-link"
+                    data-projet="facturations"
+                >
+                    Voir le projet
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </article>
+
+
+        <!-- ==================================================
+        10. MON PORTFOLIO
+        ================================================== -->
+
+        <article
+            class="project-card reveal"
+            data-technologies="web"
+        >
+
+            <div class="project-image">
+
+                <img
+                    src="images/projets/Mon_portfolio.png"
+                    alt="Mon portfolio"
+                >
+
+                <span class="project-category">
+                    HTML • CSS • JavaScript
+                </span>
+
+            </div>
+
+            <div class="project-content">
+
+                <h3>
+                    Mon portfolio
+                </h3>
+
+                <p>
+                    Projet personnel de création d'un
+                    portfolio Web moderne et responsive.
+                </p>
+
+                <button
+                    class="project-link"
+                    data-projet="portfolio"
+                >
+                    Voir le projet
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+
+    <p
+        id="aucun-projet"
+        class="no-project"
+    >
+        Aucun projet ne correspond à ce filtre.
+    </p>
+
+</section>
+
+
+<!-- ==================================================
+ COMPÉTENCES
+================================================== -->
+
+<section
+    id="competences"
+    class="section section-alt"
+>
+
+    <div class="section-heading">
+
+        <span>
+            MES COMPÉTENCES
+        </span>
+
+        <h2>
+            Technologies & outils
+        </h2>
+
+        <p>
+            Des compétences orientées vers
+            l'automatisation, la gestion et
+            la création de solutions numériques.
+        </p>
+
+    </div>
+
+
+    <div class="skills-grid">
+
+
+        <div class="skill-card reveal">
+
+            <div class="skill-icon">X</div>
+
+            <h3>Excel</h3>
+
+            <p>
+                Tableaux de bord, formules,
+                tableaux croisés dynamiques,
+                automatisation et analyse.
+            </p>
+
+        </div>
+
+
+        <div class="skill-card reveal">
+
+            <div class="skill-icon">V</div>
+
+            <h3>VBA</h3>
+
+            <p>
+                Automatisation des tâches,
+                formulaires, génération de documents
+                et outils de gestion.
+            </p>
+
+        </div>
+
+
+        <div class="skill-card reveal">
+
+            <div class="skill-icon">A</div>
+
+            <h3>Microsoft Access</h3>
+
+            <p>
+                Tables, requêtes, relations,
+                formulaires et outils de gestion.
+            </p>
+
+        </div>
+
+
+        <div class="skill-card reveal">
+
+            <div class="skill-icon">H</div>
+
+            <h3>HTML</h3>
+
+            <p>
+                Création de structures Web modernes,
+                accessibles et responsives.
+            </p>
+
+        </div>
+
+
+        <div class="skill-card reveal">
+
+            <div class="skill-icon">C</div>
+
+            <h3>CSS</h3>
+
+            <p>
+                Mise en page, responsive design,
+                animations et interfaces modernes.
+            </p>
+
+        </div>
+
+
+        <div class="skill-card reveal">
+
+            <div class="skill-icon">JS</div>
+
+            <h3>JavaScript</h3>
+
+            <p>
+                Interactivité, filtrage,
+                galeries et fonctionnalités
+                dynamiques.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================================================
+ À PROPOS
+================================================== -->
+
+<section
+    id="apropos"
+    class="section about-section"
+>
+
+    <div class="about-grid">
+
+        <div>
+
+            <span class="section-label">
+                À PROPOS
+            </span>
+
+            <h2>
+                Gestion et informatique
+                au service des entreprises.
+            </h2>
+
+        </div>
+
+
+        <div>
+
+            <p>
+                Mon parcours associe la gestion
+                comptable et l'informatique.
+            </p>
+
+            <p>
+                Je m'intéresse particulièrement
+                à la création d'outils numériques
+                capables de simplifier les tâches
+                de gestion, réduire les erreurs
+                et améliorer le suivi des données.
+            </p>
+
+            <p>
+                Mes projets sont principalement
+                orientés vers Excel, VBA,
+                Microsoft Access et progressivement
+                au programmation informatique.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================================================
+ CONTACT
+================================================== -->
+
+<section
+    id="contact"
+    class="contact-section"
+>
+
+    <div class="contact-content">
+
+        <span>
+            CONTACT
+        </span>
+
+        <h2>
+            Un projet ou une opportunité ?
+        </h2>
+
+        <p>
+            N'hésitez pas à me contacter
+            pour échanger sur un projet,
+            une collaboration ou une opportunité.
+        </p>
+
+        
+</div>		
+		<!--création de lien avec les img-->
+<div class="social-links">
+    <!-- Email -->
+    <a href="mailto:abdoulaye.doumbia1@outlook.com">
+        <img class="social" src="outlook.jpg" 
+alt="Outlook">
+    </a>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me" target="_blank">
+        <img class="social" src="whatsapp.jpg" alt="WhatsApp">
+    </a>
+
+    <!-- LinkedIn (Nouveau) -->
+    <a href="https://www.linkedin.com/in/abdoulaye-doumbia1" target="_blank">
+        <img class="social" src="linkedin.jpg" alt="LinkedIn">
+    </a>
+</div>
+		
+
+</section>
+
+</main>
+
+
+<!-- ==================================================
+ MODAL PROJET
+================================================== -->
+
+<div
+    class="modal"
+    id="modal-projet"
+>
+
+    <div class="modal-container">
+
+        <button
+            class="modal-close"
+            id="fermer-modal"
+            aria-label="Fermer"
+        >
+            ×
+        </button>
+
+
+        <!-- GALERIE -->
+
+        <div class="gallery">
+
+            <button
+                class="gallery-button gallery-left"
+                id="precedent"
+                aria-label="Image précédente"
+            >
+                ‹
+            </button>
+
+            <img
+                id="modal-image"
+                src=""
+                alt="Aperçu du projet"
+            >
+
+            <button
+                class="gallery-button gallery-right"
+                id="suivant"
+                aria-label="Image suivante"
+            >
+                ›
+            </button>
+
+        </div>
+
+
+        <!-- COMPTEUR -->
+
+        <div
+            id="compteur-images"
+            class="image-counter"
+        >
+            1 / 1
+        </div>
+
+
+        <!-- MINIATURES -->
+
+        <div
+            id="miniatures"
+            class="thumbnails"
+        >
+        </div>
+
+
+        <!-- INFORMATIONS -->
+
+        <div class="modal-info">
+
+            <span
+                id="modal-technologies"
+                class="modal-tech"
+            >
+            </span>
+
+            <h2 id="modal-titre"></h2>
+
+            <p id="modal-description"></p>
+
+            <h3>
+                Fonctionnalités
+            </h3>
+
+            <ul id="modal-fonctionnalites"></ul>
+
+            <a
+                id="modal-telechargement"
+                href="#"
+                class="download-button"
+                download
+            >
+                📥 Télécharger le fichier
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ==================================================
+ RETOUR EN HAUT
+================================================== -->
+
+<button
+    id="back-to-top"
+    class="back-to-top"
+    aria-label="Retour en haut"
+>
+    ↑
+</button>
+
+
+<!-- ==================================================
+ FOOTER
+================================================== -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <strong>
+            AD
+        </strong>
+
+        <p>
+            © 2026 Abdoulaye Doumbia.
+            Tous droits réservés.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
